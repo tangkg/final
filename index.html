@@ -28,14 +28,35 @@
 
   <!-- About Section -->
   <section id="about" class="container py-5">
-    <h2>About Me</h2>
-    <img src="images/me.jpg" alt="My Photo" class="img-thumbnail" width="150" />
-    <p>I am a Computer Science graduate student with experience in web development, machine learning, and large language models.</p>
-  </section>
+  <h2>About Me</h2>
+  <div class="row align-items-center">
+    <div class="col-md-3">
+  <div class="text-center">
+    <img src="images/me.jpg" alt="My Photo" class="img-thumbnail mb-3" width="150" />
+  </div>
+</div>
+    <div class="col-md-9">
+      <p>I am a Computer Science graduate student with experience in web development, machine learning, and large language models. In 2024, I earned my bachelor's degree from Sun Yat-sen University in China. In January 2025, I began my PhD studies at Portland State University, focusing on reasoning with large language models.</p>
+    </div>
+  </div>
+</section>
 
   <!-- Work Section -->
   <section id="work" class="container py-5">
-    <h2>Work & Skills</h2>
+  <h2>Previous Work & Skills</h2>
+
+  <div class="mb-4">
+    <h4>Coursework</h4>
+    <ul>
+      <li>CS 563 – Intro to Web Development</li>
+      <li>CS 510 – Large Language Models</li>
+      <li>CS 540 – Deep Learning</li>
+      <li>CS 669 Scholarship Skills for Computer Science & Engineering</li>
+    </ul>
+  </div>
+
+  <div class="mb-4">
+    <h4>Skills</h4>
     <div class="accordion" id="skillsAccordion">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -45,12 +66,25 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show">
           <div class="accordion-body">
-            JavaScript, Python, HTML, CSS, C++
+            Python, JavaScript, Python, HTML, CSS, C++
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Frameworks & Tools
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            PyTorch, MATLAB, React, Flask, Git, GitHub, VS Code
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Projects Section -->
   <section id="projects" class="container py-5">
@@ -58,7 +92,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card">
-          <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+          <!-- <img src="images/project1.jpg" class="card-img-top" alt="Project 1"> -->
           <div class="card-body">
             <h5 class="card-title">Flood Forecasting</h5>
             <p class="card-text">Predicts river flood values using LSTM and time series data.</p>
@@ -66,7 +100,6 @@
           </div>
         </div>
       </div>
-      <!-- Add more cards as needed -->
     </div>
   </section>
 
