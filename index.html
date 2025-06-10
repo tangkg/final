@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,11 +32,11 @@
   <div class="row align-items-center">
     <div class="col-md-3">
   <div class="text-center">
-    <img src="images/me.jpg" alt="My Photo" class="img-thumbnail mb-3" width="150" />
+    <img src="images/me.jpg" alt="My Photo" class="img-thumbnail mb-3" width="250" />
   </div>
 </div>
     <div class="col-md-9">
-      <p>I am a Computer Science graduate student with experience in web development, machine learning, and large language models. In 2024, I earned my bachelor's degree from Sun Yat-sen University in China. In January 2025, I began my PhD studies at Portland State University, focusing on reasoning with large language models.</p>
+      <p>I am Kegeng Tang, a Computer Science graduate student with experience in web development, machine learning, and large language models. In 2024, I earned my bachelor's degree from Sun Yat-sen University in China. In January 2025, I began my PhD studies at Portland State University, focusing on reasoning with large language models.</p>
     </div>
   </div>
 </section>
@@ -88,20 +88,28 @@
 
   <!-- Projects Section -->
   <section id="projects" class="container py-5">
-    <h2>Projects</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <!-- <img src="images/project1.jpg" class="card-img-top" alt="Project 1"> -->
-          <div class="card-body">
-            <h5 class="card-title">Flood Forecasting</h5>
-            <p class="card-text">Predicts river flood values using LSTM and time series data.</p>
-            <a href="https://github.com/username/flood-project" class="btn btn-primary">GitHub</a>
-          </div>
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Personal Blog Website</h5>
+          <p class="card-text">A personal blog created using the Hexo static site generator and deployed via GitHub Pages at <code>tangkg.com</code>. This site is used to publish personal essays, technical reflections, and blog posts in Chinese.</p>
+          <a href="https://tangkg.com" class="btn btn-primary" target="_blank">Visit Site</a>
         </div>
       </div>
     </div>
-  </section>
+    <div class="col-md-6">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Web-based Greedy Snake Game</h5>
+          <p class="card-text">A simple implementation of the classic snake game using basic HTML and JavaScript. This version runs directly in the browser without any external libraries or frameworks.</p>
+          <a href="https://github.com/tangkg/GreedySnake" class="btn btn-primary" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Contact Section -->
   <section id="contact" class="container py-5">
