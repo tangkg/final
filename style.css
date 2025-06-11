@@ -1,44 +1,45 @@
-/* style.css */
-
 html {
-  font-size: 200%;
+    font-size: 200%;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
-  line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    line-height: 1.6;
 }
 
 .navbar {
-  background-color: #0d6efd;
+    background-color: #0d6efd;
+}
+.nav-link {
+    color: #ffffff !important;
 }
 
 h2 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 1.8em;
-  color: #0d6efd;
-  background: linear-gradient(to right, #0d6efd 0%, #0d6efd 5px, transparent 5px);
-  padding-left: 10px;
-  border-left: 5px solid #0d6efd;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #0d6efd;
+    background: linear-gradient(to right, #0d6efd 0%, #0d6efd 5px, transparent 5px);
+    padding-left: 10px;
+    border-left: 5px solid #0d6efd;
 }
 
 .card {
-  margin-bottom: 20px;
-  transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 form label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 form button {
-  width: 100%;
+    width: 100%;
 }
